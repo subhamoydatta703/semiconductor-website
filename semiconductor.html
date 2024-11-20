@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semiconductor Phy. Er Module 3 Holo?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 50px;
+        }
+        .response {
+            font-size: 20px;
+            margin-top: 20px;
+            color: red;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Semiconductor Phy. Er Module 3 Holo?</h1>
+
+    <button onclick="showResponse('Ha Korechi')">Ha Korechi</button>
+    <button onclick="showResponse('Na Akhono Hoy Ni')">Na Akhono Hoy Ni</button>
+
+    <div id="response" class="response"></div>
+
+    <script>
+        function showResponse(answer) {
+            const responseDiv = document.getElementById('response');
+            if (answer === 'Ha Korechi') {
+                responseDiv.textContent = 'Bhanch*d';
+            } else if (answer === 'Na Akhono Hoy Ni') {
+                responseDiv.textContent = 'amaro g@nd fete jachche eta korte';
+            }
+        }
+    </script>
+
+</body>
+</html>
